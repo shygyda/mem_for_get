@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mobile Application</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.2.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="lib/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="lib/jquery.mobile-1.3.2.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+
+    <body>
+        <!-- Start page -->
+        <div data-role="page" id="start-page">
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-id="header"
+            data-tap-toggle="false">
+                <h1>Hello World</h1>
+            </div>
+            <!-- End of header -->
+
+            <!-- Content -->
+            <div data-role="content">
+                <div>
+                    <h1>Hello World!</h1>
+                    <ul id="main-list" data-role="listview" data-inset="true">
+                    </ul>
+                </div>
+            </div>
+            <!-- End of content -->
+
+            <!-- Navigation bar -->
+            <div data-role="footer" data-position="fixed" data-id="navbar"
+            data-tap-toggle="false">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a href="" class="ui-btn-active ui-state-persist">
+                                <i class="icon-home icon-white"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="html/add-private-note.html" data-transition="fade">
+                                <i class="icon-plus icon-white"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of navigation bar -->
+
+        </div> 
+        <!-- End of start page -->
+    </body>
+</html>

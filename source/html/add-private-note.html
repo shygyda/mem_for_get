@@ -1,0 +1,55 @@
+<div data-role="page" id="add-private-note">
+    <!-- Header -->
+    <div data-role="header" data-position="fixed" data-id="header">
+        <h1>Hello World</h1>
+    </div>
+    <!-- End of header -->
+
+    <!-- Content -->
+    <div data-role="content">
+        <!-- New private note form -->
+        <form id="private-note-form" action="" method="post">
+            <h2>New Private Note</h2>
+            <label for="private-note-title">Title</label>
+            <input type="text" id="private-note-title"/>
+            <label for="private-note-message">Message</label>
+            <textarea id="private-note-message"></textarea> 
+
+            <!-- Control buttons -->
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <button>
+                        <i class="icon-gray icon-ok"></i>
+                    </button>
+                </div>
+                <div class="ui-block-b">
+                    <button>
+                        <i class="icon-gray icon-remove"></i>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <!-- End of content -->
+
+    <!-- Navigation bar -->
+    <div data-role="footer" data-position="fixed" data-id="navbar">
+        <div data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#start-page" data-transition="fade">
+                        <i class="icon-home icon-white"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="ui-btn-active ui-state-persist">
+                    <i class="icon-plus icon-white"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of navigation bar -->
+</div>
+
